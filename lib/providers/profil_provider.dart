@@ -83,11 +83,9 @@ class ProfilProvider with ChangeNotifier {
   ) async {
     final editan = DateTime.now();
     try {
-      // final link = await _ref.uploadPhotoAndGetUrl(urlphoto);
       await _ref.deletePhotoByUrl(last);
       print("Foto lama dihapus: $last");
 
-      // 2️⃣ Upload foto baru dan dapatkan URL publik
       String newUrlPhoto = await _ref.uploadPhotoAndGetUrl(urlphoto);
       print("Foto baru diunggah: $newUrlPhoto");
 

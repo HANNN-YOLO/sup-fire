@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971087564701",
+    "project_id": "test-hosting-feb11",
+    "storage_bucket": "test-hosting-feb11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971087564701:android:24a1e7c330c04c19e32974",
+        "android_client_info": {
+          "package_name": "com.example.rest_curd_foto_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt_8jPtIQXqOQW6GmOKdpHaG1MoEyRZd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
