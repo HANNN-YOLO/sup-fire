@@ -16,13 +16,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.22.0" # Ganti sesuai versi Flutter kamu
+          flutter-version: "3.22.0" # pastikan sesuai versi Flutter kamu
 
       - name: Install dependencies
         run: flutter pub get
